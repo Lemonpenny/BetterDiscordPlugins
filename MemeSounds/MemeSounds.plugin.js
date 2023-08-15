@@ -1,13 +1,11 @@
 /**
- * @name MemeSounds
+ * @name CustomizedMemeSounds
  * @version 0.6.1
  * @description Plays Memetastic sounds depending on what is being sent in chat. This was heavily inspired by the idea of Metalloriff's bruh plugin so go check him out!
  * @invite SsTkJAP3SE
- * @author Lonk#6942
- * @authorId 557388558017495046
- * @authorLink https://github.com/Lonk12/
- * @source https://github.com/Lonk12/BetterDiscordPlugins/blob/main/MemeSounds/MemeSounds.plugin.js
- * @updateUrl https://raw.githubusercontent.com/Lonk12/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js
+ * @authorLink https://github.com/Lemonpenny/
+ * @source https://github.com/Lemonpenny/BetterDiscordPlugins/edit/main/MemeSounds/MemeSounds.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/Lemonpenny/BetterDiscordPlugins/main/MemeSounds/MemeSounds.plugin.js
  */
 
 module.exports = (() => {
@@ -36,7 +34,9 @@ module.exports = (() => {
 				{re: /bazinga/gmi, file: "bazinga.mp3", duration: 550},
 				{re: /oof/gmi, file: "oof.mp3", duration: 250},
 				{re: /bruh/gmi, file: "bruh.mp3", duration: 470},
-				{re: /🗿/gmi, file: "moyai.mp3", duration: 100}
+				{re: /🗿/gmi, file: "moyai.mp3", duration: 100},
+				{re: /china/gmi, file: "social-credit-music.mp3", duration: 700},
+			
 			];
 
 			/* Double message event fix */
