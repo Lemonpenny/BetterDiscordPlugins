@@ -1,2 +1,1 @@
-# BetterDiscordPlugins
-Better Discord plugins that i've created
+Lonk12's plugin with more sounds
